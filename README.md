@@ -2,28 +2,7 @@
 
 ## Tabla de contenido :page_facing_up:
 
-<details open>
-  <summary>Tabla de Contenido</summary>
-  <ul>
-    <li><a href="#Descripción 🚀 ">Descripción</a></li>
-    <li><a href="#Funciones ✨">Funciones</a></li>
-    <li><a href="#Requisitos ⚡️">Requisitos</a>
-    </li>
-    <li><a href="#Instalacion de Requisitos 🛠️">Instalación de Requisitos</a>
-      <ul>
-        <li><a href="#linuxmacos">Linux/MacOS</a></li>
-        <li><a href="#nerd-fonts">Nerd Fonts</a></li>
-      </ul>
-    </li>
-    <li><a href="#instalacion-del-proyecto">Instalación del Proyecto</a>
-      <ul>
-        <li><a href="#linuxmacos-1">Linux/MacOS</a></li>
-      </ul>
-    </li>
-    <li><a href="#estructura-de-archivos">Estructura de Archivos</a></li>
-    <li><a href="#inspiracion">Inspiración</a></li>
-  </ul>
-</details>
+[Requisitos ](https://github.com/andresfavio/nvim/edit/master/README.md#descripci%C3%B3n-)
 
 ## Descripción 🚀 
 
