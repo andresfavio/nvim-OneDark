@@ -1,12 +1,38 @@
-# Mi Configuracion De Neovim
+[![Screenshot-2023-12-19-22-54-25-1366x768.png](https://i.postimg.cc/zBwMk6sQ/Screenshot-2023-12-19-22-54-25-1366x768.png)](https://postimg.cc/xJCtfxTG)
 
-# 🚀 Descripción
+# Tabla de contenido
+
+- [Descripción](#Descripcion)
+- [Funciones](#funciones)
+- [Requisitos](#requisitos)
+  - [Ubuntu/Debian](#ubuntudebian)
+  - [Fedora](#fedora)
+  - [Arch Linux](#arch-linux)
+  - [openSUSE](#opensuse)
+  - [macOS (Homebrew)](#macos-homebrew)
+- [Instalación de Nerd Fonts](#instalación-de-nerd-fonts)
+- [Instalación](#instalación)
+  - [Linux/MacOS](#linuxmacos)
+- [Tema](#tema)
+  - [One Dark](#one-dark)
+- [Lazy](#lazy)
+- [Dashboard](#dashboard)
+- [Treesitter](#treesitter)
+- [Lualine](#lualine)
+  - [Captura de Pantalla Lualine](#captura-de-pantalla-lualine)
+- [Telescope](#telescope)
+- [Mason](#mason)
+- [Capturas de Pantalla Mason](#capturas-de-pantalla-mason)
+- [Nvim-cmp](#nvim-cmp)
+- [Nvim-lsp](#nvim-lsp)
+
+## 🚀 Descripción
 
 El proyecto Neovim es un conjunto de configuraciones y complementos cuidadosamente seleccionados para mejorar la experiencia de usuario en Neovim. Diseñado pensando en la productividad y la personalización, este conjunto ofrece características avanzadas y atajos inteligentes para potenciar tu flujo de trabajo en el entorno de Neovim.
 
 > **El proyecto usa como base las configuraciones del proyecto [LazyVim](https://github.com/LazyVim/LazyVim)** 
 
-# ✨ Funciones 
+## ✨ Funciones 
 
 - 🔥 Transforma tu Neovim 
 - 🚀 Increíblemente rápido 
@@ -14,7 +40,7 @@ El proyecto Neovim es un conjunto de configuraciones y complementos cuidadosamen
 - 📦 Viene con una gran cantidad de complementos preconfigurados y listos para usar
 - 💤 Personaliza y amplía fácilmente tu configuración con [lazy.nvim](https://github.com/folke/lazy.nvim) 
 
-# ⚡️ Requisitos
+## ⚡️ Requisitos
 
 * Neovim \>= **0.9.0** 
 * Git >= **2.19.0** 
@@ -30,7 +56,7 @@ El proyecto Neovim es un conjunto de configuraciones y complementos cuidadosamen
   * [alacritty](https://github.com/alacritty/alacritty) ***(Linux, Macos & Windows)***
   * [iterm2](https://iterm2.com/) ***(Macos)***
 
-# 🛠️ Instalacion de Requisitos:
+## 🛠️ Instalacion de Requisitos:
 
 ### Ubuntu/Debian:
 
@@ -140,7 +166,7 @@ Luego, puedes instalar los requerimientos o dependencias:
 brew install (nombre del programa o dependencia que deseas instalar)
 ```
 
-### Instalación de Nerd Fonts:
+## Instalación de Nerd Fonts:
 
 1. Clona el repositorio de Nerd Fonts desde GitHub:
 
@@ -160,9 +186,9 @@ cd nerd-fonts
 ./install.sh
 ```
 
-# 🛠️ Instalacion
+## 🛠️ Instalacion
 
-## Linux/MacOs
+### Linux/MacOs
 
 Instalar el [LazyVim Starter](https://github.com/LazyVim/starter)
 
@@ -210,4 +236,64 @@ Instalar el [LazyVim Starter](https://github.com/LazyVim/starter)
 
   > Se recomienda ejecutar :checkhealth después de la instalación, esto para poder verificar si necesita instalar alguna dependencia extra.
 
-  .......................
+## Tema: 
+
+#### One Dark:
+
+Para poder configurar o conocer mejor el tema dirigete al repositorio de [navarazu one dark](https://github.com/navarasu/onedark.nvim/blob/master/README.md)
+
+<p float="left">
+<img width="412" alt="Onedark - dark" src="https://user-images.githubusercontent.com/20145075/144289835-cbbbcb22-4eae-41f1-a5a3-e1800a37ae41.png">
+<img width="412" alt="Onedark - darker" src="https://user-images.githubusercontent.com/20145075/144293945-ee3b7dca-b119-4709-96d3-50391c7b8aba.png">
+</div></p>
+<p float="left">
+<img width="412" alt="Onedark - cool" src="https://user-images.githubusercontent.com/20145075/144298826-5c51eb3a-5529-4fe7-bce2-56508eda93d7.png">
+<img width="412" alt="Onedark - deep" src="https://user-images.githubusercontent.com/20145075/144299487-a7e886c7-2cc9-4d85-9aac-8517170432fc.png">
+</div></p>
+<p float="left">
+<img width="412" alt="Onedark - warm" src="https://user-images.githubusercontent.com/20145075/144304677-abbf6cc1-4adc-48b4-b675-6f6a5a98b426.png">
+<img width="412" alt="Onedark - warmer" src="https://user-images.githubusercontent.com/20145075/144304700-1e333a12-6994-4fb2-9053-1e7f294d41a6.png">
+</div></p>
+
+## Lazy
+
+[![Screenshot-2023-12-19-22-59-26-1366x768.png](https://i.postimg.cc/vHx7FfBY/Screenshot-2023-12-19-22-59-26-1366x768.png)](https://postimg.cc/CzYnbZkX)
+
+## Dashboard
+
+[![Screenshot-2023-12-19-20-00-24-1366x768.png](https://i.postimg.cc/4dF8wG8B/Screenshot-2023-12-19-20-00-24-1366x768.png)](https://postimg.cc/34mCJsQv)
+
+## Treesitter
+
+[![Screenshot-2023-12-19-23-07-57-1366x768.png](https://i.postimg.cc/s2MwnXLq/Screenshot-2023-12-19-23-07-57-1366x768.png)](https://postimg.cc/d7K23qwj)
+
+## Lualine
+
+### [![Screenshot-2023-12-19-23-04-41-1366x768.png](https://i.postimg.cc/nrJjQR7T/Screenshot-2023-12-19-23-04-41-1366x768.png)](https://postimg.cc/JDp4fQpB)
+
+## Telescope
+
+[![Screenshot-2023-12-19-23-00-50-1366x768.png](https://i.postimg.cc/26XWgSNL/Screenshot-2023-12-19-23-00-50-1366x768.png)](https://postimg.cc/LYLh1RXm)
+
+## Mason
+
+[![Screenshot-2023-12-19-23-09-17-1366x768.png](https://i.postimg.cc/L52W0SLP/Screenshot-2023-12-19-23-09-17-1366x768.png)](https://postimg.cc/xJpgcWsj)
+
+[![Screenshot-2023-12-19-23-09-30-1366x768.png](https://i.postimg.cc/Kv9WQdzK/Screenshot-2023-12-19-23-09-30-1366x768.png)](https://postimg.cc/crnTLkfZ)
+
+[![Screenshot-2023-12-19-23-09-42-1366x768.png](https://i.postimg.cc/YCZsBYQM/Screenshot-2023-12-19-23-09-42-1366x768.png)](https://postimg.cc/YvN314Xs)
+
+[![Screenshot-2023-12-19-23-09-49-1366x768.png](https://i.postimg.cc/KYTsGj5L/Screenshot-2023-12-19-23-09-49-1366x768.png)](https://postimg.cc/hJS0MS6P)
+
+[![Screenshot-2023-12-19-23-09-55-1366x768.png](https://i.postimg.cc/htkp5gqG/Screenshot-2023-12-19-23-09-55-1366x768.png)](https://postimg.cc/dh92hb3M)
+
+[![Screenshot-2023-12-19-23-10-00-1366x768.png](https://i.postimg.cc/wx45rHXd/Screenshot-2023-12-19-23-10-00-1366x768.png)](https://postimg.cc/5jvFHhKP)
+
+## Nvim-cmp
+
+[![Screenshot-2023-12-19-23-06-50-1366x768.png](https://i.postimg.cc/nrGyHrpT/Screenshot-2023-12-19-23-06-50-1366x768.png)](https://postimg.cc/q6gbwktC)
+
+## Nvim-lsp
+
+[![Screenshot-2023-12-19-23-10-58-1366x768.png](https://i.postimg.cc/GpjGx1LV/Screenshot-2023-12-19-23-10-58-1366x768.png)](https://postimg.cc/HJVrTR79)
+
