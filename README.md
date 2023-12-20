@@ -1,4 +1,5 @@
 [![Screenshot-2023-12-19-22-54-25-1366x768.png](https://i.postimg.cc/zBwMk6sQ/Screenshot-2023-12-19-22-54-25-1366x768.png)](https://postimg.cc/xJCtfxTG)
+
 ## Descripción 🚀 
 
 El proyecto Neovim es un conjunto de configuraciones y complementos cuidadosamente seleccionados para mejorar la experiencia de usuario en Neovim. Diseñado pensando en la productividad y la personalización, este conjunto ofrece características avanzadas y atajos inteligentes para potenciar tu flujo de trabajo en el entorno de Neovim.
@@ -34,122 +35,117 @@ El proyecto Neovim es un conjunto de configuraciones y complementos cuidadosamen
 Aqui tienes los comandos de instalación para Linux/MacOs.
 Se recomienda hacer una previa actulizacion antes de la instalacion, puedes hacer la actualizacion segun tu sistema operativo
 
-### Ubuntu/Debian:
-```bash
-sudo apt-get update
-sudo apt-get install neovim
-sudo apt-get install git
-sudo apt-get install lazygit 
-sudo apt-get install ripgrep 
-sudo apt-get install fd-find 
-sudo apt-get install fzf
-```
-### Fedora:
-```bash
-sudo dnf install neovim
-sudo dng install git
-sudo dnf install lazygit 
-sudo dnf install ripgrep 
-sudo dnf install fd-find 
-sudo dnf install fzf
-```
-### Arch Linux:
-```bash
-sudo pacman -S neovim
-sudo pacman -S git
-sudo pacman -S lazygit 
-sudo pacman -S ripgrep 
-sudo pacman -S fd 
-sudo pacman -S fzf
-```
+* ### Ubuntu/Debian:
+    ```bash
+    sudo apt-get update
+    sudo apt-get install neovim
+    sudo apt-get install git
+    sudo apt-get install lazygit 
+    sudo apt-get install ripgrep 
+    sudo apt-get install fd-find 
+    sudo apt-get install fzf
+    ```
+* ### Fedora:
+    ```bash
+    sudo dnf install neovim
+    sudo dng install git
+    sudo dnf install lazygit 
+    sudo dnf install ripgrep 
+    sudo dnf install fd-find 
+    sudo dnf install fzf
+    ```
+* ### Arch Linux:
+    ```bash
+    sudo pacman -S neovim
+    sudo pacman -S git
+    sudo pacman -S lazygit 
+    sudo pacman -S ripgrep 
+    sudo pacman -S fd 
+    sudo pacman -S fzf
+    ```
 
-sino tambien puede usar yay.
-### Yay
-```bash
-yay -S neovim
-yay -S git
-yay -S lazygit
-yay -S ripgrep
-yay -S fd
-yay -S fzf
-```
+    sino tambien puede usar yay.
+* ### Yay
+    ```bash
+    yay -S neovim
+    yay -S git
+    yay -S lazygit
+    yay -S ripgrep
+    yay -S fd
+    yay -S fzf
+    ```
 
-en caso de que no tengas yay.
+    en caso de que no tengas yay instalado sigue los siguientes pasos:
 
-Copia el repositorio:
-```bash
-cd
-git clone https://aur.archlinux.org/yay.git
-```
-Entra en la carpeta de yay:
-```bash
-cd yay
-```
-Instala yay:
-```bash
-makepkg -si
-```
-Ahora si Instala los requerimientos con el comando:
-```bash
-yay -S (Nombre Del programa o dependencia que necesitas)
-```
-### openSUSE:
-```bash
-sudo zypper install neovim
-sudo zypper install git
-sudo zypper install lazygit 
-sudo zypper install ripgrep
-sudo zypper install fd
-sudo zypper install fzf
-```
-### macOS (usando Homebrew):
-```bash
-brew install neovim
-brew install git
-brew install lazygit 
-brew install ripgrep 
-brew install fd
-brew installfzf
-```
-
-Si aún no tienes Homebrew instalado, puedes instalarlo con:
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-Luego, puedes instalar los requerimientos o dependencias:
-```bash
-brew install (nombre del programa o dependencia que deseas instalar)
-```
-</details>
-Expande para poder ver los pasos de instalacion de los requisitos, en caso ya tengas lo requisitos instalados omite este mensaje.
+1. Copia el repositorio:
+    ```bash
+    cd
+    git clone https://aur.archlinux.org/yay.git
+    ```
+2. Entra en la carpeta de yay:
+    ```bash
+    cd yay
+    ```
+3. Instala yay:
+    ```bash
+    makepkg -si
+    ```
+4. Ahora si Instala los requerimientos con el comando:
+    ```bash
+    yay -S (Nombre Del programa o dependencia que necesitas)
+    ```
+* ### openSUSE:
+    ```bash
+    sudo zypper install neovim
+    sudo zypper install git
+    sudo zypper install lazygit 
+    sudo zypper install ripgrep
+    sudo zypper install fd
+    sudo zypper install fzf
+    ```
+* ### macOS (usando Homebrew):
+    ```bash
+    brew install neovim
+    brew install git
+    brew install lazygit 
+    brew install ripgrep 
+    brew install fd
+    brew installfzf
+    ```
+    Si aún no tienes Homebrew instalado, puedes instalarlo con:
+1. Instala Homebrew
+    ```bash
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
+2. Luego, puedes instalar los requerimientos o dependencias:
+    ```bash
+    brew install (nombre del programa o dependencia que deseas instalar)
+    ```
+    </details>
+    Expande para poder ver los pasos de instalacion de los requisitos, en caso ya tengas lo requisitos instalados omite este mensaje.
 <details>
  <summary> <h3>Instalación de Nerd Fonts 🗚</h3></summary>
 
 Aqui tienes los comando necesarios para instalar las fuentes de [Nerd Font](https://www.nerdfonts.com/) , si quieres ver las fuentes que puedes instalar de manera personalizadas entra a la pagina de [Nerd Font](https://www.nerdfonts.com/) y escoge la fuente que deseas.
 La fuente que se esta usando en los ejemplos es la fuente de [Iosevka Nerd Font](https://www.nerdfonts.com/).
 1. Clona el repositorio de Nerd Fonts desde GitHub: 
-
-```bash
-git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git
-```
-
+    ```bash
+    git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git
+    ```
 2. Cambia al directorio del repositorio:
-
-```bash
-cd nerd-fonts
-```
-
+    ```bash
+    cd nerd-fonts
+    ```
 3. Ejecuta el script de instalación:
-
-```bash
-./install.sh
-```
-</details>
-Expande para poder ver los pasos de instalacion de las fuentes, en caso ya tengas lo requisitos instalados omite este mensaje.
+    ```bash
+    ./install.sh
+    ```
+    </details>
+    Expande para poder ver los pasos de instalacion de las fuentes, en caso ya tengas lo requisitos instalados omite este mensaje.
 
 ## Instalacion del proyecto 👨‍💻
 
-### Linux/MacOs
+* ### Linux/MacOs
 
 Instalar el [LazyVim Starter](https://github.com/LazyVim/starter)
 
@@ -228,4 +224,3 @@ Instalar el [LazyVim Starter](https://github.com/LazyVim/starter)
 * [Crafzdog](https://www.youtube.com/watch?v=fFHlfbKVi30&pp=ygUJZGV2YXNsaWZl)
 * [Josean-Dev](https://github.com/josean-dev/dev-environment-files)
 * [Gentleman Programming](https://www.youtube.com/@GentlemanProgramming)
-
