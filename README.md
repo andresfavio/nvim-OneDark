@@ -193,6 +193,28 @@ Instalar el [LazyVim Starter](https://github.com/LazyVim/starter)
 
   > Se recomienda ejecutar :checkhealth después de la instalación, esto para poder verificar si necesita instalar alguna dependencia extra.
 
+<details>
+ <summary> <h3>Capturas de pantalla 📸 </h3></summary>
+    <p float="center">
+<img alt="Onedark - dark" src="https://i.postimg.cc/0y6VSLzL/Screenshot-2023-12-20-13-59-19-1366x768.png">
+<p float="left">
+<img width="412" alt="Onedark - dark" src="https://i.postimg.cc/cHQ1XxJ2/Screenshot-2023-12-20-13-59-51-1366x768.png">
+<img width="412" alt="Onedark - darker" src="https://i.postimg.cc/SQgbq2HV/Screenshot-2023-12-20-14-00-59-1366x768.png">
+</div></p>
+<p float="left">
+<img width="412" alt="Onedark - cool" src="https://i.postimg.cc/9QWxfJT7/Screenshot-2023-12-20-14-01-47-1366x768.png">
+<img width="412" alt="Onedark - deep" src="https://i.postimg.cc/hvmSfKkp/Screenshot-2023-12-20-14-17-40-1366x768.png">
+</div></p>
+<p float="left">
+<img width="412" alt="Onedark - warm" src="https://i.postimg.cc/6pWXNVpH/Screenshot-2023-12-20-14-02-05-1366x768.png">
+<img width="412" alt="Onedark - warmer" src="https://i.postimg.cc/8PkKpZLr/Screenshot-2023-12-20-14-02-17-1366x768.png">
+</div></p>
+<p float="left">
+<img width="412" alt="Onedark - warm" src="https://i.postimg.cc/kXDQYzxw/Screenshot-2023-12-20-14-03-52-1366x768.png">
+<img width="412" alt="Onedark - warmer" src="https://i.postimg.cc/MG0VjSSZ/Screenshot-2023-12-20-14-05-44-1366x768.png">
+</div></p>
+</details>
+
 ## Estructura de archivos 📂 
 
 ```bash
