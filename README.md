@@ -2,7 +2,7 @@
 
 ## Tabla de contenido :page_facing_up:
 
-[Descripcion](#https://github.com/andresfavio/nvim/tree/master#descripci%C3%B3n-)
+[Descripcion](https://github.com/andresfavio/nvim/tree/master#descripci%C3%B3n-)
 
 ## Descripción 🚀 
 
