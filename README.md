@@ -1,30 +1,56 @@
 [![Screenshot-2023-12-19-22-54-25-1366x768.png](https://i.postimg.cc/zBwMk6sQ/Screenshot-2023-12-19-22-54-25-1366x768.png)](https://postimg.cc/xJCtfxTG)
 
+<h4 align="center">
+  <a href="#🛠️ Instalacion de Neovim">Instalación</a>
+  ·
+  <a href="https://www.lazyvim.org/configuration">Configuración</a>
+  ·
+  <a href="https://lazyvim.github.io">Docs</a>
+</h4>
+
+
 # Tabla de contenido
 
-- [Descripción](#Descripcion)
-- [Funciones](#funciones)
-- [Requisitos](#requisitos)
-  - [Ubuntu/Debian](#ubuntudebian)
-  - [Fedora](#fedora)
-  - [Arch Linux](#arch-linux)
-  - [openSUSE](#opensuse)
-  - [macOS (Homebrew)](#macos-homebrew)
-- [Instalación de Nerd Fonts](#instalación-de-nerd-fonts)
-- [Instalación](#instalación)
-  - [Linux/MacOS](#linuxmacos)
-- [Tema](#tema)
-  - [One Dark](#one-dark)
-- [Lazy](#lazy)
-- [Dashboard](#dashboard)
-- [Treesitter](#treesitter)
-- [Lualine](#lualine)
-  - [Captura de Pantalla Lualine](#captura-de-pantalla-lualine)
-- [Telescope](#telescope)
-- [Mason](#mason)
-- [Capturas de Pantalla Mason](#capturas-de-pantalla-mason)
-- [Nvim-cmp](#nvim-cmp)
-- [Nvim-lsp](#nvim-lsp)
+<ul>
+  <li><a href="#🚀 Descripción">Descripción</a></li>
+  <li><a href="#✨ Funciones ">Funciones</a></li>
+  <li><a href="#⚡️ Requisitos">Requisitos</a>
+    <ul>
+      <li><a href="#ubuntudebian">Ubuntu/Debian</a></li>
+      <li><a href="#fedora">Fedora</a></li>
+      <li><a href="#arch-linux">Arch Linux</a></li>
+      <li><a href="#opensuse">openSUSE</a></li>
+      <li><a href="#macos-homebrew">macOS (Homebrew)</a></li>
+    </ul>
+  </li>
+  <li><a href="#instalación-de-nerd-fonts">Instalación de Nerd Fonts</a></li>
+  <li><a href="#🛠️ Instalacion-de-Neovim">Instalación</a>
+    <ul>
+      <li><a href="#linuxmacos">Linux/MacOS</a></li>
+    </ul>
+  </li>
+  <li><a href="#tema">Tema</a>
+    <ul>
+      <li><a href="#one-dark">One Dark</a></li>
+    </ul>
+  </li>
+  <li><a href="#lazy">Lazy</a></li>
+  <li><a href="#dashboard">Dashboard</a></li>
+  <li><a href="#treesitter">Treesitter</a></li>
+  <li><a href="#lualine">Lualine</a>
+    <ul>
+      <li><a href="#captura-de-pantalla-lualine">Captura de Pantalla Lualine</a></li>
+    </ul>
+  </li>
+  <li><a href="#telescope">Telescope</a></li>
+  <li><a href="#mason">Mason</a>
+    <ul>
+      <li><a href="#capturas-de-pantalla-mason">Capturas de Pantalla Mason</a></li>
+    </ul>
+  </li>
+  <li><a href="#nvim-cmp">Nvim-cmp</a></li>
+  <li><a href="#nvim-lsp">Nvim-lsp</a></li>
+</ul>
 
 ## 🚀 Descripción
 
@@ -186,7 +212,7 @@ cd nerd-fonts
 ./install.sh
 ```
 
-## 🛠️ Instalacion
+## 🛠️ Instalacion de Neovim
 
 ### Linux/MacOs
 
@@ -217,7 +243,7 @@ Instalar el [LazyVim Starter](https://github.com/LazyVim/starter)
 * Clona el repositorio
 
   ```bash
-  https://github.com/andresfavio/nvim.git
+  git clone https://github.com/andresfavio/nvim.git ~/.config/nvim
   ```
 
 * Elimine la carpeta.git para poder agregarla a su propio repositorio más adelante
@@ -235,6 +261,31 @@ Instalar el [LazyVim Starter](https://github.com/LazyVim/starter)
   Consulte la documentacion de [LazyVim](https://github.com/LazyVim/LazyVim) para poder personalizarlo a su gusto
 
   > Se recomienda ejecutar :checkhealth después de la instalación, esto para poder verificar si necesita instalar alguna dependencia extra.
+
+## 📂 Estructura de archivos
+
+```bash
+~/.config/nvim
+├──  init.lua
+├──  lua
+│  ├──  andres
+│  │  ├──  discipline.lua
+│  │  └──  utils.lua
+│  ├──  config
+│  │  ├──  autocmds.lua
+│  │  ├──  keymaps.lua
+│  │  ├──  lazy.lua
+│  │  └──  options.lua
+│  ├──  plugins
+│  │  ├──  coding.lua
+│  │  ├──  colorscheme.lua
+│  │  ├──  disable.lua
+│  │  ├──  editor.lua
+│  │  └──  ui.lua
+│  └──  util
+│     └──  debug.lua
+└──  README.md
+```
 
 ## Tema: 
 
@@ -277,17 +328,18 @@ Para poder configurar o conocer mejor el tema dirigete al repositorio de [navara
 
 ## Mason
 
-[![Screenshot-2023-12-19-23-09-17-1366x768.png](https://i.postimg.cc/L52W0SLP/Screenshot-2023-12-19-23-09-17-1366x768.png)](https://postimg.cc/xJpgcWsj)
-
-[![Screenshot-2023-12-19-23-09-30-1366x768.png](https://i.postimg.cc/Kv9WQdzK/Screenshot-2023-12-19-23-09-30-1366x768.png)](https://postimg.cc/crnTLkfZ)
-
-[![Screenshot-2023-12-19-23-09-42-1366x768.png](https://i.postimg.cc/YCZsBYQM/Screenshot-2023-12-19-23-09-42-1366x768.png)](https://postimg.cc/YvN314Xs)
-
-[![Screenshot-2023-12-19-23-09-49-1366x768.png](https://i.postimg.cc/KYTsGj5L/Screenshot-2023-12-19-23-09-49-1366x768.png)](https://postimg.cc/hJS0MS6P)
-
-[![Screenshot-2023-12-19-23-09-55-1366x768.png](https://i.postimg.cc/htkp5gqG/Screenshot-2023-12-19-23-09-55-1366x768.png)](https://postimg.cc/dh92hb3M)
-
-[![Screenshot-2023-12-19-23-10-00-1366x768.png](https://i.postimg.cc/wx45rHXd/Screenshot-2023-12-19-23-10-00-1366x768.png)](https://postimg.cc/5jvFHhKP)
+<p float="left">
+<img width="412" alt="Onedark - dark" src="https://i.postimg.cc/L52W0SLP/Screenshot-2023-12-19-23-09-17-1366x768.png">
+<img width="412" alt="Onedark - darker" src="https://i.postimg.cc/Kv9WQdzK/Screenshot-2023-12-19-23-09-30-1366x768.png">
+</div></p>
+<p float="left">
+<img width="412" alt="Onedark - cool" src="https://i.postimg.cc/YCZsBYQM/Screenshot-2023-12-19-23-09-42-1366x768.png">
+<img width="412" alt="Onedark - deep" src="https://i.postimg.cc/KYTsGj5L/Screenshot-2023-12-19-23-09-49-1366x768.png">
+</div></p>
+<p float="left">
+<img width="412" alt="Onedark - warm" src="https://i.postimg.cc/htkp5gqG/Screenshot-2023-12-19-23-09-55-1366x768.png">
+<img width="412" alt="Onedark - warmer" src="https://i.postimg.cc/wx45rHXd/Screenshot-2023-12-19-23-10-00-1366x768.png">
+</div></p>
 
 ## Nvim-cmp
 
