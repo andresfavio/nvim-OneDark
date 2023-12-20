@@ -5,6 +5,13 @@
 * [Descripcion](#descripci%C3%B3n-)
 * [Funciones](#funciones-)
 * [Requisitos](#requisitos-%EF%B8%8F)
+    * [Instalación de requisitos](#instalacion-de-requisitos-%EF%B8%8F-)
+    * [Instalación de Nerd Fonts](#instalaci%C3%B3n-de-nerd-fonts-)
+* [Instalación del proyecto](#instalacion-del-proyecto-)
+    * [Capturas de pantalla](#capturas-de-pantalla--)
+* [Estructura de archivos](#estructura-de-archivos-)
+* [Inspiración](#inspiraci%C3%B3n)
+  
 
 ## Descripción 🚀 
 
