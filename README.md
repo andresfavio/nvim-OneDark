@@ -1,6 +1,4 @@
 [![Screenshot-2023-12-19-22-54-25-1366x768.png](https://i.postimg.cc/zBwMk6sQ/Screenshot-2023-12-19-22-54-25-1366x768.png)](https://postimg.cc/xJCtfxTG)
-
-
 ## Descripción 🚀 
 
 El proyecto Neovim es un conjunto de configuraciones y complementos cuidadosamente seleccionados para mejorar la experiencia de usuario en Neovim. Diseñado pensando en la productividad y la personalización, este conjunto ofrece características avanzadas y atajos inteligentes para potenciar tu flujo de trabajo en el entorno de Neovim.
@@ -30,11 +28,13 @@ El proyecto Neovim es un conjunto de configuraciones y complementos cuidadosamen
   * [wezterm](https://github.com/wez/wezterm) ***(Linux, Macos & Windows)***
   * [alacritty](https://github.com/alacritty/alacritty) ***(Linux, Macos & Windows)***
   * [iterm2](https://iterm2.com/) ***(Macos)***
-
-## Instalacion de Requisitos 🛠️ 
+    
+<details>
+ <summary> <h3>Instalacion de Requisitos 🛠️ </h3></summary>
+Aqui tienes los comandos de instalación para Linux/MacOs.
+Se recomienda hacer una previa actulizacion antes de la instalacion, puedes hacer la actualizacion segun tu sistema operativo
 
 ### Ubuntu/Debian:
-
 ```bash
 sudo apt-get update
 sudo apt-get install neovim
@@ -44,9 +44,7 @@ sudo apt-get install ripgrep
 sudo apt-get install fd-find 
 sudo apt-get install fzf
 ```
-
 ### Fedora:
-
 ```bash
 sudo dnf install neovim
 sudo dng install git
@@ -55,9 +53,7 @@ sudo dnf install ripgrep
 sudo dnf install fd-find 
 sudo dnf install fzf
 ```
-
 ### Arch Linux:
-
 ```bash
 sudo pacman -S neovim
 sudo pacman -S git
@@ -67,10 +63,8 @@ sudo pacman -S fd
 sudo pacman -S fzf
 ```
 
-sino tambien puede usar yay:
-
+sino tambien puede usar yay.
 ### Yay
-
 ```bash
 yay -S neovim
 yay -S git
@@ -80,35 +74,26 @@ yay -S fd
 yay -S fzf
 ```
 
-en caso de que no tengas yay:
+en caso de que no tengas yay.
 
 Copia el repositorio:
-
 ```bash
 cd
 git clone https://aur.archlinux.org/yay.git
 ```
-
 Entra en la carpeta de yay:
-
 ```bash
 cd yay
 ```
-
 Instala yay:
-
 ```bash
 makepkg -si
 ```
-
 Ahora si Instala los requerimientos con el comando:
-
 ```bash
 yay -S (Nombre Del programa o dependencia que necesitas)
 ```
-
 ### openSUSE:
-
 ```bash
 sudo zypper install neovim
 sudo zypper install git
@@ -117,9 +102,7 @@ sudo zypper install ripgrep
 sudo zypper install fd
 sudo zypper install fzf
 ```
-
 ### macOS (usando Homebrew):
-
 ```bash
 brew install neovim
 brew install git
@@ -130,20 +113,21 @@ brew installfzf
 ```
 
 Si aún no tienes Homebrew instalado, puedes instalarlo con:
-
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-
 Luego, puedes instalar los requerimientos o dependencias:
-
 ```bash
 brew install (nombre del programa o dependencia que deseas instalar)
 ```
+</details>
+Expande para poder ver los pasos de instalacion de los requisitos, en caso ya tengas lo requisitos instalados omite este mensaje.
+<details>
+ <summary> <h3>Instalación de Nerd Fonts 🗚</h3></summary>
 
-## Instalación de Nerd Fonts:
-
-1. Clona el repositorio de Nerd Fonts desde GitHub:
+Aqui tienes los comando necesarios para instalar las fuentes de [Nerd Font](https://www.nerdfonts.com/) , si quieres ver las fuentes que puedes instalar de manera personalizadas entra a la pagina de [Nerd Font](https://www.nerdfonts.com/) y escoge la fuente que deseas.
+La fuente que se esta usando en los ejemplos es la fuente de [Iosevka Nerd Font](https://www.nerdfonts.com/).
+1. Clona el repositorio de Nerd Fonts desde GitHub: 
 
 ```bash
 git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git
@@ -160,8 +144,10 @@ cd nerd-fonts
 ```bash
 ./install.sh
 ```
+</details>
+Expande para poder ver los pasos de instalacion de las fuentes, en caso ya tengas lo requisitos instalados omite este mensaje.
 
-## Instalacion de Neovim 🛠️ 
+## Instalacion del proyecto 👨‍💻
 
 ### Linux/MacOs
 
@@ -214,7 +200,7 @@ Instalar el [LazyVim Starter](https://github.com/LazyVim/starter)
 ## Estructura de archivos 📂 
 
 ```bash
-~/.config/nvim
+~/.config/nvim
 ├──init.lua
 ├──lua
 │  ├──andres
@@ -239,7 +225,6 @@ Instalar el [LazyVim Starter](https://github.com/LazyVim/starter)
 ## Inspiración
 
 * [LazyVim](https://www.lazyvim.org/)
-
 * [Crafzdog](https://www.youtube.com/watch?v=fFHlfbKVi30&pp=ygUJZGV2YXNsaWZl)
 * [Josean-Dev](https://github.com/josean-dev/dev-environment-files)
 * [Gentleman Programming](https://www.youtube.com/@GentlemanProgramming)
