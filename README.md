@@ -215,25 +215,25 @@ Instalar el [LazyVim Starter](https://github.com/LazyVim/starter)
 
 ```bash
 ~/.config/nvim
-├──  init.lua
-├──  lua
-│  ├──  andres
-│  │  ├──  discipline.lua
-│  │  └──  utils.lua
-│  ├──  config
-│  │  ├──  autocmds.lua
-│  │  ├──  keymaps.lua
-│  │  ├──  lazy.lua
-│  │  └──  options.lua
-│  ├──  plugins
-│  │  ├──  coding.lua
-│  │  ├──  colorscheme.lua
-│  │  ├──  disable.lua
-│  │  ├──  editor.lua
-│  │  └──  ui.lua
-│  └──  util
-│     └──  debug.lua
-└──  README.md
+├──init.lua
+├──lua
+│  ├──andres
+│  │  ├──discipline.lua
+│  │  └──utils.lua
+│  ├──config
+│  │  ├──autocmds.lua
+│  │  ├──keymaps.lua
+│  │  ├──lazy.lua
+│  │  └──options.lua
+│  ├──plugins
+│  │  ├──coding.lua
+│  │  ├──colorscheme.lua
+│  │  ├──disable.lua
+│  │  ├──editor.lua
+│  │  └──ui.lua
+│  └──util
+│     └──debug.lua
+└──README.md
 ```
 
 ### 🌈 Tema: 
@@ -326,4 +326,12 @@ Algunas características y aspectos destacados de nvim-cmp son:
 El Protocolo de Servidor de Lenguaje (LSP, por sus siglas en inglés) es un estándar de comunicación entre editores de código y servidores de lenguaje. Permite que los editores de código, como Neovim, se comuniquen con servidores específicos de lenguaje para proporcionar características avanzadas, como autocompletado, resaltado de sintaxis, navegación de código y más.
 
 [![Screenshot-2023-12-19-23-10-58-1366x768.png](https://i.postimg.cc/GpjGx1LV/Screenshot-2023-12-19-23-10-58-1366x768.png)](https://postimg.cc/HJVrTR79)
+
+## Inspiración
+
+* [LazyVim](https://www.lazyvim.org/)
+
+* [Crafzdog](https://www.youtube.com/watch?v=fFHlfbKVi30&pp=ygUJZGV2YXNsaWZl)
+* [Josean-Dev](https://github.com/josean-dev/dev-environment-files)
+* [Gentleman Programming](https://www.youtube.com/@GentlemanProgramming)
 
