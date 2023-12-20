@@ -1,8 +1,10 @@
 [![Screenshot-2023-12-19-22-54-25-1366x768.png](https://i.postimg.cc/zBwMk6sQ/Screenshot-2023-12-19-22-54-25-1366x768.png)](https://postimg.cc/xJCtfxTG)
+El proyecto Neovim es un conjunto de configuraciones y complementos cuidadosamente seleccionados para mejorar la experiencia de usuario en Neovim. Diseñado pensando en la productividad y la personalización, este conjunto ofrece características avanzadas y atajos inteligentes para potenciar tu flujo de trabajo en el entorno de Neovim.
+
+> **El proyecto usa como base las configuraciones del proyecto [LazyVim](https://github.com/LazyVim/LazyVim)**
 
 ## Tabla de contenido :page_facing_up:
 
-- [Descripcion](#descripci%C3%B3n-)
 - [Funciones](#funciones-)
 - [Requisitos](#requisitos-%EF%B8%8F)
     * [Instalación de requisitos](#instalacion-de-requisitos-%EF%B8%8F-)
@@ -12,13 +14,6 @@
 - [Estructura de archivos](#estructura-de-archivos-)
 - [Inspiración](#inspiraci%C3%B3n)
   
-
-## Descripción 🚀 
-
-El proyecto Neovim es un conjunto de configuraciones y complementos cuidadosamente seleccionados para mejorar la experiencia de usuario en Neovim. Diseñado pensando en la productividad y la personalización, este conjunto ofrece características avanzadas y atajos inteligentes para potenciar tu flujo de trabajo en el entorno de Neovim.
-
-> **El proyecto usa como base las configuraciones del proyecto [LazyVim](https://github.com/LazyVim/LazyVim)** 
-
 ## Funciones ✨ 
 
 - 🔥 Transforma tu Neovim 
