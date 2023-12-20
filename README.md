@@ -2,7 +2,28 @@
 
 ## Tabla de contenido :page_facing_up:
 
-[TOC]
+<details open>
+  <summary>Tabla de Contenido</summary>
+  <ul>
+    <li><a href="#Descripción 🚀 ">Descripción</a></li>
+    <li><a href="#Funciones ✨">Funciones</a></li>
+    <li><a href="#Requisitos ⚡️">Requisitos</a>
+    </li>
+    <li><a href="#Instalacion de Requisitos 🛠️">Instalación de Requisitos</a>
+      <ul>
+        <li><a href="#linuxmacos">Linux/MacOS</a></li>
+        <li><a href="#nerd-fonts">Nerd Fonts</a></li>
+      </ul>
+    </li>
+    <li><a href="#instalacion-del-proyecto">Instalación del Proyecto</a>
+      <ul>
+        <li><a href="#linuxmacos-1">Linux/MacOS</a></li>
+      </ul>
+    </li>
+    <li><a href="#estructura-de-archivos">Estructura de Archivos</a></li>
+    <li><a href="#inspiracion">Inspiración</a></li>
+  </ul>
+</details>
 
 ## Descripción 🚀 
 
@@ -33,11 +54,11 @@ El proyecto Neovim es un conjunto de configuraciones y complementos cuidadosamen
   * [wezterm](https://github.com/wez/wezterm) ***(Linux, Macos & Windows)***
   * [alacritty](https://github.com/alacritty/alacritty) ***(Linux, Macos & Windows)***
   * [iterm2](https://iterm2.com/) ***(Macos)***
-    
 <details>
- <summary> <h3>Instalacion de Requisitos 🛠️ </h3></summary>
+ <summary> <h3 id="InstalacionRequisitos">Instalacion de Requisitos 🛠️ </h3></summary>
 Aqui tienes los comandos de instalación para Linux/MacOs.
 Se recomienda hacer una previa actulizacion antes de la instalacion, puedes hacer la actualizacion segun tu sistema operativo
+
 
 * ### Ubuntu/Debian:
     ```bash
