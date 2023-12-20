@@ -11,8 +11,6 @@
 </h4>
 El proyecto Neovim es un conjunto de configuraciones y complementos cuidadosamente seleccionados para mejorar la experiencia de usuario en Neovim. Diseñado pensando en la productividad y la personalización, este conjunto ofrece características avanzadas y atajos inteligentes para potenciar tu flujo de trabajo en el entorno de Neovim.
 
-> **El proyecto usa como base las configuraciones del proyecto [LazyVim](https://github.com/LazyVim/LazyVim)**
-
 ## Tabla de contenido :page_facing_up:
 
 - [Funciones](#funciones-)
@@ -162,7 +160,7 @@ La fuente que se esta usando en los ejemplos es la fuente de [Iosevka Nerd Font]
     Expande para poder ver los pasos de instalacion de las fuentes, en caso ya tengas lo requisitos instalados omite este mensaje.
 
 ## Instalacion del proyecto 👨‍💻
-
+El proyecto usa como base las configuraciones del proyecto [LazyVim](https://github.com/LazyVim/LazyVim)
 * ### Linux/MacOs
 
 Instalar el [LazyVim Starter](https://github.com/LazyVim/starter)
