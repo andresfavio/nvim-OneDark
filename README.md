@@ -2,7 +2,9 @@
 
 ## Tabla de contenido :page_facing_up:
 
-[Descripcion](#descripci%C3%B3n-)
+* [Descripcion](#descripci%C3%B3n-)
+* [Funciones](#funciones-)
+* [Requisitos](#requisitos-%EF%B8%8F)
 
 ## Descripción 🚀 
 
